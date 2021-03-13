@@ -1,0 +1,62 @@
+.Pet{
+    display:flex;
+    flex-direction: column;
+
+    border: 1 solid;
+    border-radius: 12px;
+
+    max-width: 33vw;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.Pet div{
+    padding: 0 2vw;
+}
+
+.header{
+
+  
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    align-items: center;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    background: #858BF2;
+
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+
+    font-size: 13px;
+    color: #FEFEFE;
+}
+
+.idPet{
+    padding: 10px 15px;
+  
+    border-radius:5px;
+
+    max-width: 20px;
+    max-height: 20px;
+
+
+    background-color: #FEFEFE;
+    color: #858BF2;
+}
+
+.Pet .body{
+
+    background-color: #ededed;
+
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+    color: #434343;
+    font-weight: bold;
+}
+.body span{
+    font-weight: 100;
+}

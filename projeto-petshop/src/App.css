@@ -1,9 +1,22 @@
 
+
+.pets{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+}
+
+#petForm{
+  margin-left: 25vw;
+  max-width: 50vw;
+}
+
 .main h1{
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
 
   color: #3b3b3b;
+
 
   text-align: center;
 }
